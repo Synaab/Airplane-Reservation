@@ -1,8 +1,8 @@
 import Header from "@/components/Header";
 import InputField from "@/components/InputField";
 
-export default function Home() {
-return (
+export default function ReservePage() {
+    return (
         <main className="w-full h-[100vh] bg-cover bg-center bg-no-repeat "
             style={{ backgroundImage: "url('/bg.jpg')" }}>
         <div className="h-full bg-gradient-to-l from-[#00235599] to-[#004DBB00]" >
@@ -93,4 +93,3 @@ return (
 //#0047AB
 //#EBEBEB
 //#F9F9FB
-
